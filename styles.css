@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  padding: 10px;
+  background: rgb(2,0,36);
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(22,23,72,1) 45%, rgba(57,160,202,1) 100%);
+  color: #fff;
+  font-family: 'Mukta', sans-serif;
+}
+
+img {
+  display: flex;
+  flex-direction: column;
+  height: 10%;
+  width: 20%;
+  border: 0;
+  border-radius: 30px;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 35px;
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.amount-box{
+  justify-content: space-between;
+  background-color: #161748;
+  border-radius: 10px;
+  font-family: 'Mukta', sans-serif;
+  cursor: pointer;
+  color: #fff;
+  text-align: right;
+  font-size: 30px;
+  border: 1px solid #f95d9b;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+button {
+  background: rgb(71,133,89);
+  background: linear-gradient(0deg, rgba(71,133,89,1) 0%, rgba(57,160,202,1) 95%, rgba(57,160,202,1) 100%);
+  border-radius: 10px;
+  font-family: 'Mukta', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  border: 0;
+  margin: 10px;
+}
+
+.swap-rate-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rate {
+  font-size: 18px;
+  padding: 0 10px;
+}
+
+.currency {
+  border: 0;
+  background: rgb(71,133,89);
+  background: linear-gradient(0deg, rgba(71,133,89,1) 0%, rgba(57,160,202,1) 95%, rgba(57,160,202,1) 100%);
+  border: 1px solid #478559;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px 10px 10px;
+}
+
+.footer {
+  padding-top: 100px;
+  font-size: 20px;
+}
+
+a {color: #f95d9b;}
