@@ -1,0 +1,39 @@
+<head>
+  <title>Exchange rate calculator</title>
+</head>
+<body>
+  <img src="https://images.vexels.com/media/users/3/153717/isolated/preview/b2da53cc3362d9a5431d94eb0c34af5b-hand-pointer-on-money-icon-by-vexels.png" alt="picture of currency" class="money-img">
+  
+  <h1>Currency Calculator</h1>
+  <p>Pick your starting currency, then type the amount you want to exhange.</p>
+  
+  <div class="container">
+    
+    <select class="currency" id="currency-one">
+      <option value="EUR">EUR</option>
+      <option value="USD">USD</option>
+    </select>
+    
+    <input type="number" id="amount-one" class="amount-box" placeholder="0">
+    
+    <div class="swap-rate-container">
+        <button id="swap" class="btn"><span>Swap</span></button>
+      <div id="rate"> </div>
+    </div>
+    
+    <select class="currency" id="currency-two">
+      <option value="EUR">EUR</option>
+      <option value="USD">USD</option>
+    </select>
+    
+    <input type="number" id="amount-two" class="amount-box" placeholder="0">
+    
+
+    
+    <p class="footer"> Many thanks to Frank Benedik for the design inspiration!</br> See his work <a href="https://codepen.io/bajabenedik/pen/BaNEeaq">HERE. <p>
+    
+  </div>
+  
+   <!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+
