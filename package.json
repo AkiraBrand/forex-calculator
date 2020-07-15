@@ -1,0 +1,22 @@
+{
+  "name": "forex-calculator",
+  "version": "1.0.0",
+  "description": "foreign exchange rate calculator",
+  "main": "calculations.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AkiraBrand/forex-calculator.git"
+  },
+  "author": "AkiraBrand",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AkiraBrand/forex-calculator/issues"
+  },
+  "homepage": "https://github.com/AkiraBrand/forex-calculator#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
